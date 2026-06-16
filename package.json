@@ -1,10 +1,24 @@
 {
   "name": "appsazure",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Leer",
+  "main": "server.js",
   "scripts": {
-    "build": "your-build-command",
-    "test": "your-test-command"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch4rlyg/appsazure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ch4rlyg/appsazure/issues"
+  },
+  "homepage": "https://github.com/ch4rlyg/appsazure#readme",
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
