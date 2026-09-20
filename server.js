@@ -6,7 +6,7 @@ app.use(express.static('public'));
 
 // Opcional: redirigir raíz a public/index.html
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + '/public/index01.html');
 });
 
 
